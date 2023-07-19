@@ -388,8 +388,8 @@ export default function AddBlog() {
                           className={`${
                             buttonDisabled
                               ? "bg-indigo-300 cursor-not-allowed hover:bg-indigo-300"
-                              : "bg-indigo-600 "
-                          } ml-3 inline-flex justify-center rounded-md border border-transparent py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2`}
+                              : "bg-indigo-600 hover:bg-indigo-700"
+                          } ml-3 inline-flex justify-center rounded-md border border-transparent py-2 px-4 text-sm font-medium text-white shadow-sm  focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2`}
                         >
                           Create Post
                         </button>

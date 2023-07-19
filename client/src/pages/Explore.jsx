@@ -9,7 +9,7 @@ import * as api from "../services/api/api";
 
 export default function Explore() {
   const [posts, setPosts] = useState(null);
-  const [visible, setVisible] = useState(3);
+  const [visible, setVisible] = useState(9);
   const [loading, setLoading] = useState(true)
   
   function handleLoadMore() {

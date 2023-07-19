@@ -14,7 +14,7 @@ export default function Home() {
   const [visible, setVisible] = useState(9);
 
   function handleLoadMore() {
-    setVisible((prevValue) => prevValue + 9);
+    setVisible((prevValue) => prevValue + prevValue);
   }
 
   useEffect(() => {
