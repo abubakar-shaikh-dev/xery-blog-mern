@@ -145,7 +145,7 @@ export default function Blog() {
           </div>
         </div>
         <h1
-          className="text-xl mt-10 mb-2 family-poppins font-bold md:text-4xl"
+          className="text-xl text-black mt-10 mb-2 family-poppins font-bold md:text-4xl"
           itemProp="headline"
         >
           {blogData?.title}
