@@ -153,7 +153,7 @@ export default function Blog() {
         {blogData && (
           <div
             id="post-content"
-            className="markdown"
+            className="markdown text-black"
             itemProp="articleBody"
             dangerouslySetInnerHTML={{ __html: blogData.description }}
           ></div>
