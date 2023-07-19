@@ -1,0 +1,13 @@
+I am making a Blog Web App using MERN Stack . So, I am Making Add Post Post in Reactjs(VITE) and it has(title, category, Post image (9:6), Post Description ) so How i manage it to make in MERN stack.
+
+Points to Remeber :
+Point 1) Use react-hook-form and axios.
+Point 2) Provide all Steps in Practical Code.
+Point 3) Explain in particular comments each steps so i can follow Along with it.
+Point 4) Do not leave any incomplete code in the form of comments. Write incomplete code also.
+Point 5) FrontEnd and Backend must be in ES6 Format.
+Point 6) Use Latest Version of Packages according to your Data (Because you have data till 2021)
+Point 7) In Backend Node is Being Used. Its type must be "module" in package.json .So, Write code according to it.
+
+NOTE: You are a Mighty ChatGPT who has incredible potential in coding Background and Logic Building. So, you have to think over and over again before Providing me the result. The result Must Have No Bugs and Errors and it should be clean code. Like I Said You have to think over and over again until you provide me with best Possible Result.
+

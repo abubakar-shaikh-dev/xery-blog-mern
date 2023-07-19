@@ -1,0 +1,49 @@
+.markdown {
+    margin-bottom: 1;
+}
+
+.markdown:after,
+.markdown:before {
+    content: "";
+    display: table;
+}
+
+.markdown:after {
+    clear: both;
+}
+
+.markdown h1:first-child {
+    font-size: 3rem;
+    margin-bottom: calc(1.25 * 1rem);
+}
+
+.markdown > h2 {
+    font-size: 2rem;
+    margin-top: calc(2 * calc(1.25 * 1rem));
+}
+
+.markdown > h3 {
+    font-size: 1.5rem;
+    margin-top: calc(1.5 * calc(1.25 * 1rem));
+}
+
+.markdown > h4,
+.markdown > h5,
+.markdown > h6 {
+    margin-top: calc(1.25 * calc(1.25 * 1rem));
+}
+
+.markdown > p,
+.markdown > pre,
+.markdown > ul,
+.tabList__CuJ {
+    margin-bottom: calc(1.25 * 1rem);
+}
+
+.markdown li > p {
+    margin-top: 1rem;
+}
+
+.markdown li + li {
+    margin-top: 0.25rem;
+}
