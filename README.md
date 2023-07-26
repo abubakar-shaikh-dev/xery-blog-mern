@@ -18,7 +18,7 @@
 
 ## Description
 
-Xery Blog App is a full-stack web application built using Vite, React.js, Redux Toolkit, MongoDB, Node.js, Express, HTML, CSS, and Tailwind CSS. The project consists of two folders, "Client" and "Server," where "Client" contains the frontend code, and "Server" handles Node.js, Express, and MongoDB connectivity.
+Xery Blog App is a full-stack web application built using Vite, React.js, Redux Toolkit, MongoDB, Node.js, Express, HTML, CSS, and Tailwind CSS. The project consists of two folders, "client" and "server," where "client" contains the frontend code, and "server" handles Node.js, Express, and MongoDB connectivity.
 
 ## Environment Variables
 
