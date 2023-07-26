@@ -1,6 +1,6 @@
 # Xery Blog App
 
-![Xery Blog App Screenshot](https://raw.githubusercontent.com/abubakar-shaikh-dev/xery-blog-mern/main/media/xery-blog-app.png)
+![64c0d249f0299f457c3d3302](https://github.com/abubakar-shaikh-dev/xery-blog-mern/assets/64248752/a4171c93-0e33-423c-997f-2accf7b559d0)
 
 Xery Blog App is a full-stack web application built using the MERN stack (MongoDB, Express, React, Node.js).
 
