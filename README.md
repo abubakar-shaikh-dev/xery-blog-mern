@@ -1,5 +1,3 @@
-Here is a draft README.md file for your github repo following the details and rules you provided:
-
 # Xery Blog App
 
 This is a blog app built with React, Redux Toolkit, MongoDB, Node.js, Express, HTML, CSS, JS, and Tailwind CSS. 
