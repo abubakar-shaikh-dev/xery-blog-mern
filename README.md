@@ -43,7 +43,7 @@ Before you run the application, make sure to create a `.env` file in both the `c
 
 In `.env` (client folder):
 
-```
+```dotenv
 VITE_TINYMCE_API_KEY=<Get your API key from [TinyMCE](https://www.tiny.cloud/)>
 VITE_API_BASE_URL=<Base URL of the backend API, e.g. http://localhost:3000/api>
 ```
@@ -52,7 +52,7 @@ VITE_API_BASE_URL=<Base URL of the backend API, e.g. http://localhost:3000/api>
 
 In `.env` (server folder):
 
-```
+```dotenv
 FRONTEND_ORIGIN_URL=<URL of the frontend app, e.g. http://localhost:5173>
 CLOUDINARY_API_KEY=<Get your API Key from [Cloudinary](https://cloudinary.com/) after creating an account>
 CLOUDINARY_CLOUD_NAME=<Get your Cloud Name from [Cloudinary](https://cloudinary.com/) after creating an account>
