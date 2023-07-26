@@ -43,27 +43,25 @@ Create a `.env` file in both the `client` and `server` directories.
 
 In `.env` (client folder):
 
-```bash
 `VITE_TINYMCE_API_KEY` : Get API key from [TinyMCE](https://www.tiny.cloud/)  
 
 `VITE_API_BASE_URL`: Base URL of the backend API (e.g. http://localhost:3000/api)
-```
 
 #### Server
 
 In `.env` (server folder):
 
-```bash
 `FRONTEND_ORIGIN_URL` : URL of frontend app (e.g. http://localhost:5173)
 
-`CLOUDINARY_API_*` : Get credentials from [Cloudinary](https://cloudinary.com/)
+`CLOUDINARY_API_KEY` : Get API Key from [Cloudinary](https://cloudinary.com/) after Creating Account.
 
-`SECRET_KEY` : Secret key for JWT
+`CLOUDINARY_CLOUD_NAME`: Get Cloud Name from [Cloudinary](https://cloudinary.com/) after Creating Account.
+
+`SECRET_KEY` : Secret key for JWT (Random Text)
 
 `MONGODB_URI` : Get URI from [MongoDB Atlas](https://www.mongodb.com/atlas/database)
 
 `PORT` : Port for server (default is 3000)
-```
 
 ### Installation
 
