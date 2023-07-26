@@ -1,5 +1,3 @@
-You're correct, I've updated the environment variables section to mention creating the .env file:
-
 # Xery Blog App
 
 ![Xery Blog App Screenshot](https://raw.githubusercontent.com/abubakar-shaikh-dev/xery-blog-mern/main/media/xery-blog-app.png)
