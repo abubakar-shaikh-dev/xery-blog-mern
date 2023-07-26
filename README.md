@@ -1,10 +1,10 @@
 # Xery Blog App (MERN)
 
-![64c0d249f0299f457c3d3302](https://github.com/abubakar-shaikh-dev/xery-blog-mern/assets/64248752/a4171c93-0e33-423c-997f-2accf7b559d0)
+![Xery Blog App](https://github.com/abubakar-shaikh-dev/xery-blog-mern/assets/64248752/a4171c93-0e33-423c-997f-2accf7b559d0)
 
 Xery Blog App is a full-stack web application built using the MERN stack (MongoDB, Express, React, Node.js).
 
-## Table of Contents 
+## Table of Contents
 
 - [Key Features](#key-features)
 - [Tech Stack](#tech-stack)
@@ -19,7 +19,7 @@ Xery Blog App is a full-stack web application built using the MERN stack (MongoD
 ## Key Features
 
 - Blog post creation, editing, and deletion
-- Rich text editor for creating posts 
+- Rich text editor for creating posts
 - Image upload for posts
 - User authentication
 
@@ -31,57 +31,57 @@ Xery Blog App is a full-stack web application built using the MERN stack (MongoD
 
 ## Demo
 
-Live Demo: [https://xery-blog-mern.vercel.app](https://xery-blog-mern.vercel.app) 
+Experience the live demo of the application: [https://xery-blog-mern.vercel.app](https://xery-blog-mern.vercel.app)
 
-## Getting Started 
+## Getting Started
 
 ### Environment Variables
 
-Create a `.env` file in both the `client` and `server` directories.
+Before you run the application, make sure to create a `.env` file in both the `client` and `server` directories.
 
-#### Client 
+#### Client
 
 In `.env` (client folder):
 
-`VITE_TINYMCE_API_KEY` : Get API key from [TinyMCE](https://www.tiny.cloud/)  
-
-`VITE_API_BASE_URL`: Base URL of the backend API (e.g. http://localhost:3000/api)
+```
+VITE_TINYMCE_API_KEY=<Get your API key from [TinyMCE](https://www.tiny.cloud/)>
+VITE_API_BASE_URL=<Base URL of the backend API, e.g. http://localhost:3000/api>
+```
 
 #### Server
 
 In `.env` (server folder):
 
-`FRONTEND_ORIGIN_URL` : URL of frontend app (e.g. http://localhost:5173)
-
-`CLOUDINARY_API_KEY` : Get API Key from [Cloudinary](https://cloudinary.com/) after Creating Account.
-
-`CLOUDINARY_CLOUD_NAME`: Get Cloud Name from [Cloudinary](https://cloudinary.com/) after Creating Account.
-
-`SECRET_KEY` : Secret key for JWT (Random Text)
-
-`MONGODB_URI` : Get URI from [MongoDB Atlas](https://www.mongodb.com/atlas/database)
-
-`PORT` : Port for server (default is 3000)
+```
+FRONTEND_ORIGIN_URL=<URL of the frontend app, e.g. http://localhost:5173>
+CLOUDINARY_API_KEY=<Get your API Key from [Cloudinary](https://cloudinary.com/) after creating an account>
+CLOUDINARY_CLOUD_NAME=<Get your Cloud Name from [Cloudinary](https://cloudinary.com/) after creating an account>
+SECRET_KEY=<Your secret key for JWT (Random Text)>
+MONGODB_URI=<Get your MongoDB URI from [MongoDB Atlas](https://www.mongodb.com/atlas/database)>
+PORT=<Port for the server, default is 3000>
+```
 
 ### Installation
 
+Follow these steps to set up the application:
+
 ```bash
-# Clone the repository 
+# Clone the repository
 git clone https://github.com/abubakar-shaikh-dev/xery-blog-mern.git
 
 # Server - Install dependencies and start
-cd server  
+cd server
 npm install
 npm start
 
-# Client - Install dependencies and start 
+# Client - Install dependencies and start
 cd client
 npm install
 npm run dev
 ```
 
-The app should now be running on http://localhost:5173
+The app should now be up and running at http://localhost:5173
 
-## Contact 
+## Contact
 
-For any questions or issues, please email shaikhabubakar2380@gmail.com
+For any questions or issues, feel free to reach out to us at shaikhabubakar2380@gmail.com. We would love to hear from you!
