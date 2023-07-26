@@ -1,4 +1,4 @@
-# Xery Blog App
+# Xery Blog App (Vite)
 
 ![Xery Blog App](https://your-image-url.com)
 
@@ -39,7 +39,7 @@ To run the server successfully, set the following environment variables in the `
 
 ## Demo
 
-Check out the live demo of the Xery Blog App: [Demo Link](https://xery-blog-mern.vercel.app/)
+Check out the live demo of the Xery Blog App: [Demo Link](https://xery-blog-mern.vercel.app/){:target="_blank"}
 
 ## Technologies Used
 
