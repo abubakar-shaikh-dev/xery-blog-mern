@@ -1,80 +1,83 @@
-# Xery Blog App (Vite)
+You're right, I've removed those features from the key features section:
 
-![Xery Blog App](https://your-image-url.com)
+# Xery Blog App
+
+![Xery Blog App Screenshot](https://raw.githubusercontent.com/abubakar-shaikh-dev/xery-blog-mern/main/media/xery-blog-app.png) 
+
+Xery Blog App is a full-stack web application built using the MERN stack (MongoDB, Express, React, Node.js).
 
 ## Table of Contents
 
-- [Description](#description)
-- [Environment Variables](#environment-variables)
-  - [Client Folder](#client-folder)
-  - [Server Folder](#server-folder)
+- [Key Features](#key-features)
+- [Tech Stack](#tech-stack)
 - [Demo](#demo)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Getting Started](#getting-started)
+  - [Environment Variables](#environment-variables)
+    - [Client](#client)
+    - [Server](#server)
+  - [Installation](#installation)
 - [Contact](#contact)
 
-## Description
+## Key Features
 
-Xery Blog App is a full-stack web application built using Vite, React.js, Redux Toolkit, MongoDB, Node.js, Express, HTML, CSS, and Tailwind CSS. The project consists of two folders, "Client" and "Server," where "Client" contains the frontend code, and "Server" handles Node.js, Express, and MongoDB connectivity.
+- Blog post creation, editing, and deletion
+- Rich text editor for creating posts
+- Image upload for posts
+- User authentication
 
-## Environment Variables
+## Tech Stack 
 
-### Client Folder
+**Client:** React, Redux Toolkit, TailwindCSS
 
-Before running the client application, you need to set the following environment variables in the `.env` file located in the "client" folder:
-
-- `VITE_TINY_MCE_API_KEY`: Obtain this API key by creating an account on [TinyMCE](https://www.tiny.cloud/).
-- `VITE_API_BASE_URL`: The base URL for the server API.
-
-### Server Folder
-
-To run the server successfully, set the following environment variables in the `.env` file located in the "server" folder:
-
-- `FRONTEND_ORIGIN_URL`: URL of the frontend application (e.g., `http://localhost:5173`).
-- `CLOUDINARY_API_SECRET`, `CLOUDINARY_API_KEY`, `CLOUDINARY_CLOUD_NAME`: Obtain these credentials by creating an account on [Cloudinary](https://cloudinary.com/).
-- `SECRET_KEY`: A secret key for JWT token generation.
-- `MONGODB_URI`: MongoDB connection string. Create an account on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) to get the connection URI.
-- `PORT`: The port number for the server (default: `3000`).
+**Server:** Node, Express, MongoDB, JWT
 
 ## Demo
 
-Check out the live demo of the Xery Blog App: [Demo Link](https://xery-blog-mern.vercel.app/){:target="_blank"}
+Live Demo: [https://xery-blog-mern.vercel.app](https://xery-blog-mern.vercel.app)
 
-## Technologies Used
+## Getting Started
 
-- Vite
-- React.js
-- Redux Toolkit
-- MongoDB
-- Node.js
-- Express
-- HTML
-- CSS
-- Tailwind CSS
+### Environment Variables
 
-## Installation
+Copy the `.env.example` file to `.env` and update the values for the environment variables  
 
-Follow these steps to run the application locally using npm:
+#### Client
 
-1. Clone the repository: `git clone https://github.com/abubakar-shaikh-dev/xery-blog-mern.git`
-2. Navigate to the "server" folder: `cd xery-blog-mern/server`
-3. Install server dependencies: `npm install`
-4. Set up the environment variables as explained above.
-5. Start the server: `npm start`
-6. Open a new terminal.
-7. Navigate to the "client" folder: `cd ../client`
-8. Install client dependencies: `npm install`
-9. Set up the environment variables as explained above.
-10. Start the client application: `npm run dev`
+`VITE_TINYMCE_API_KEY` : Get API key from [TinyMCE](https://www.tiny.cloud/)
 
-Now you can use and explore the Xery Blog App locally!
+`VITE_API_BASE_URL`: Base URL of the backend API
 
-## Usage
+#### Server
 
-Include any additional usage instructions or guidelines here.
+`FRONTEND_ORIGIN_URL` : URL of frontend app (e.g. http://localhost:5173)
+
+`CLOUDINARY_API_*` : Get credentials from [Cloudinary](https://cloudinary.com/) 
+
+`SECRET_KEY` : Secret key for JWT
+
+`MONGODB_URI` : Get URI from [MongoDB Atlas](https://www.mongodb.com/atlas/database)
+
+`PORT` : Port for server (default is 3000)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/abubakar-shaikh-dev/xery-blog-mern.git
+
+# Server - Install dependencies and start 
+cd server
+npm install
+npm start
+
+# Client - Install dependencies and start
+cd client
+npm install
+npm run dev
+```
+
+The app should now be running on http://localhost:5173
 
 ## Contact
 
-That's it! You have completed the installation, setup, and usage process for the Blog App. If you encounter any issues or have further questions, please don't hesitate to reach out for assistance at [shaikhabubakar2380@gmail.com].
-
+For any questions or issues, please email shaikhabubakar2380@gmail.com
