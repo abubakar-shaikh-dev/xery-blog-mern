@@ -1,6 +1,3 @@
-Sure! Here's the updated `README.md` with the environment variables section placed after the project cloning and before running `npm install`.
-
-```markdown
 # Xery Blog App (MERN)
 
 ![Xery Blog App](https://github.com/abubakar-shaikh-dev/xery-blog-mern/assets/64248752/a4171c93-0e33-423c-997f-2accf7b559d0)
@@ -81,9 +78,22 @@ MONGODB_URI=<Get your MongoDB URI from [MongoDB Atlas](https://www.mongodb.com/a
 PORT=<Port for the server, default is 3000>
 ```
 
+### Start the Application
+
+After setting up the environment variables, you can now start the application:
+
+```bash
+# Start the server
+cd ../server
+npm start
+
+# Start the client
+cd ../client
+npm run dev
+```
+
+The app should now be up and running at http://localhost:5173
+
 ## Contact
 
 For any questions or issues, feel free to reach out to us at shaikhabubakar2380@gmail.com. We would love to hear from you!
-```
-
-With this update, users will now be able to set up the environment variables immediately after cloning the repository and before running `npm install` for the client and server. This ensures that the necessary configurations are in place before proceeding with the installation of dependencies.
