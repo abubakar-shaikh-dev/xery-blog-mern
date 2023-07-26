@@ -45,7 +45,7 @@ In `.env` (client folder):
 
 `VITE_TINYMCE_API_KEY` : Get API key from [TinyMCE](https://www.tiny.cloud/)  
 
-`VITE_API_BASE_URL`: Base URL of the backend API
+`VITE_API_BASE_URL`: Base URL of the backend API (e.g. http://localhost:3000/api)
 
 #### Server
 
