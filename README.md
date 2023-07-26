@@ -1,4 +1,4 @@
-# Xery Blog App
+# Xery Blog App (MERN)
 
 ![64c0d249f0299f457c3d3302](https://github.com/abubakar-shaikh-dev/xery-blog-mern/assets/64248752/a4171c93-0e33-423c-997f-2accf7b559d0)
 
