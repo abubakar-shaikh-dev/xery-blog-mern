@@ -1,4 +1,4 @@
-# Xery Blog App (Vite)
+# Xery Blog App
 
 ![Xery Blog App](https://your-image-url.com)
 
@@ -12,13 +12,11 @@
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Description
 
-Xery Blog App is a full-stack web application built using Vite, React.js, Redux Toolkit, MongoDB, Node.js, Express, HTML, CSS, and Tailwind CSS. The project consists of two folders, "client" and "server," where "client" contains the frontend code, and "server" handles Node.js, Express, and MongoDB connectivity.
+Xery Blog App is a full-stack web application built using Vite, React.js, Redux Toolkit, MongoDB, Node.js, Express, HTML, CSS, and Tailwind CSS. The project consists of two folders, "Client" and "Server," where "Client" contains the frontend code, and "Server" handles Node.js, Express, and MongoDB connectivity.
 
 ## Environment Variables
 
@@ -33,10 +31,11 @@ Before running the client application, you need to set the following environment
 
 To run the server successfully, set the following environment variables in the `.env` file located in the "server" folder:
 
-- `FRONTEND_ORIGIN_URL`: URL of the frontend application (e.g., `http://localhost:3000`).
+- `FRONTEND_ORIGIN_URL`: URL of the frontend application (e.g., `http://localhost:5173`).
 - `CLOUDINARY_API_SECRET`, `CLOUDINARY_API_KEY`, `CLOUDINARY_CLOUD_NAME`: Obtain these credentials by creating an account on [Cloudinary](https://cloudinary.com/).
 - `SECRET_KEY`: A secret key for JWT token generation.
 - `MONGODB_URI`: MongoDB connection string. Create an account on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) to get the connection URI.
+- `PORT`: The port number for the server (default: `3000`).
 
 ## Demo
 
@@ -74,14 +73,6 @@ Now you can use and explore the Xery Blog App locally!
 ## Usage
 
 Include any additional usage instructions or guidelines here.
-
-## Contributing
-
-If you'd like to contribute to this project, please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
