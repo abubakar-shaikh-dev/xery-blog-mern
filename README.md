@@ -76,4 +76,5 @@ Include any additional usage instructions or guidelines here.
 
 ## Contact
 
-For any inquiries or feedback, you can reach me at [Your Email](mailto:your-email@example.com).
+That's it! You have completed the installation, setup, and usage process for the Blog App. If you encounter any issues or have further questions, please don't hesitate to reach out for assistance at [shaikhabubakar2380@gmail.com].
+
