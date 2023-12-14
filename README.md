@@ -96,4 +96,4 @@ The app should now be up and running at http://localhost:5173
 
 ## Contact
 
-For any questions or issues, feel free to reach out to us at shaikhabubakar2380@gmail.com. We would love to hear from you!
+For any questions or issues, feel free to reach out to me at shaikhabubakar2380@gmail.com. We would love to hear from you!
