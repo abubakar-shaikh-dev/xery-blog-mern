@@ -10,13 +10,11 @@ import postRouter from "./routes/post-routes.js";
 //Initialization
 const app = express();
 dotenv.config();
-app.use(cors(
-  {
-    origin:*,
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true
-  }
-))
+app.use(cors({
+  origin: '*', // Or specify a specific origin like 'http://example.com'
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 app.use(express.json({ limit: '10mb' }));
 
 // Middleware to parse JSON data
